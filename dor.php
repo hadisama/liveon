@@ -4,10 +4,7 @@ system('clear');
 include 'warna.php';
 
 // Memeriksa apakah konstanta MAIN_ACCESS didefinisikan
-if (!defined('MAIN_ACCESS')) {
-    echo "Unauthorized access\n";
-    exit;
-}
+if (!defined('MAIN_ACCESS'))
 
 
 echo @color("purple","TEMBAK PAKET\n");
